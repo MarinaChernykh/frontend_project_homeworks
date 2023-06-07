@@ -9,6 +9,7 @@ a {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
 }
 
 .center {
@@ -98,4 +99,117 @@ body {
     padding-bottom: 96px;
     display: flex;
     justify-content: space-between;
+}
+
+.content__topline {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}
+
+.item__small {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item__small__title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.item__small__content {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.item__small__link {
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.content__main {
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.content__main__header {
+    padding-left: calc(50% - 341px);
+    padding-right: calc(50% - 341px);
+}
+
+
+.content__main__title {
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.content__main__descr {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.content__main__items {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.item {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item__title {
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__content {
+    font-size: 15px;
+    line-height: 150%;
+    display: block;
+    color: #AAAAAA;
+    text-align: center;
+    padding-left: calc(50% - 155px);
+    padding-right: calc(50% - 155px);
+}
+
+.item__button {
+    margin-top: 39px;
+    padding: 15px 36px 15px 36px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.item__link {
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
 }
