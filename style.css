@@ -78,12 +78,16 @@ body {
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
+
+}
+
+.buttom__link {
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
 }
 
-.invisible__button {
+.invis__buttom__link {
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
